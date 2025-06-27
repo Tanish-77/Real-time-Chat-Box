@@ -1,0 +1,123 @@
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #e6f0ff;
+}
+.hidden {
+  display: none;
+}
+#auth-screen, #chat-screen {
+  padding: 20px;
+}
+#auth-screen {
+  background-color: #ffffff;
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+#auth-screen input {
+  padding: 10px;
+  width: 80%;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+#auth-screen button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#auth-screen button:hover {
+  background-color: #0056b3;
+}
+#room-selector, #chat-room {
+  margin-top: 20px;
+}
+#room-selector input {
+  padding: 8px;
+  margin-right: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+#room-selector button {
+  background-color: #28a745;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#room-selector button:hover {
+  background-color: #218838;
+}
+#room-list li {
+  cursor: pointer;
+  list-style: none;
+  padding: 6px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+  border-radius: 4px;
+}
+#room-list li:hover {
+  background-color: #d4e3ff;
+}
+#chat-room {
+  margin-top: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+#chat-header {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border-radius: 10px 10px 0 0;
+  text-align: center;
+}
+#messages {
+  height: 300px;
+  overflow-y: scroll;
+  background: #fdfdfd;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 0 0 10px 10px;
+}
+.message {
+  margin-bottom: 10px;
+  padding: 5px;
+  border-bottom: 1px solid #eee;
+}
+.message span {
+  font-weight: bold;
+  color: #007bff;
+}
+#message-box {
+  display: flex;
+  margin-top: 10px;
+}
+#message-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+}
+#message-box button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+#message-box button:hover {
+  background-color: #0056b3;
+}
